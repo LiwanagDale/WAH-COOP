@@ -11,11 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('lib_journal', function (Blueprint $table) {
+        Schema::create('lib_milestone', function (Blueprint $table) {
         $table->id();
-        $table->integer('journal_number');
-        $table->string('journal_name');
-        $table->string('journal_type');
+        $table->string('milestone_title');
+        $table->timestamp('date_achieved');
     });
     }
 
