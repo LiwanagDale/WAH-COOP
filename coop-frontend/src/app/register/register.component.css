@@ -1,0 +1,142 @@
+
+
+body{
+    background-color: #3F0F88 ;
+    font-family: Poppins;
+}
+
+a:link, a:active, a:visited{
+    color: #3F0F88;
+    text-decoration: none;
+    background-color: transparent;
+    
+
+}
+.whlogo{
+    position: absolute;
+    transform: translate(17%, -2%);
+    padding-left: 44%;
+    width: 35px;
+    height: 35px;
+}
+
+.regvector{
+    position: absolute;
+    transform: translate(3%, 5%);
+    padding-right: 44%;
+    width: 470px;
+    height: 500px;
+}
+
+.vector{
+    background-color: #0099FF;
+    position: absolute;
+    transform: translate(-5%, -2%);
+    padding-right: 45%;
+    width: 60px;
+    height: 530px;
+    border-radius: 20px;
+}
+
+
+#title{
+    font-size: 12px;
+    font-family: Poppins-Bold;
+    color: #3F0F88;
+    line-height: 100%;
+    transform: translate(65.5%, -30%);
+}
+
+#panel{
+    font-family: Poppins-Medium;
+    font-size: 13px;
+    transform: translate(61.5%, -200%);
+    color: #707070;
+}
+
+input[type=text], input[type=password]{
+    
+    transform: translate(175%, -110%);
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-family: Poppins-Medium;
+    outline-color: #3F0F88;
+  
+    
+}
+
+input[type=submit]{
+
+    padding: 10px 120px ;
+    transform: translate(175%, -180%);
+    font-family: Poppins-Medium;
+    background-color: #3F0F88;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+#account{
+
+    padding: 38px;
+    font-size: 14px;
+    color: #707070;
+    font-family: Poppins-Medium;
+    transform: translate(61%, -95%);
+}
+
+
+h1{
+    transform: translate(61%, -40%);
+    font-family: Poppins-Bold;
+    font-size: 35px;
+
+}
+
+.cb{
+    
+    transform: translate(61.5%, -225%);
+    border-radius: 10px;  
+    color: #707070; 
+    
+}
+
+.terms{
+    transform: translate(62.9%, -200.9%);
+    padding: 10px 10px 15px;
+    font-family: Poppins-Medium;
+    font-size: 12px;
+    color: #707070;
+    
+}
+.condition{
+    font-family: Poppins-Bold;
+    font-size: 12px;
+   
+}
+.login{
+    font-family: Poppins-Bold;
+    font-size: 15px;
+}
+
+.layout{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 600px;
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 45px 70px;
+    box-sizing: border-box;
+}
