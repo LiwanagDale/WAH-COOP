@@ -15,10 +15,14 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->rememberToken();
             $table->timestamps();
+            $table->integer('code');
+            $table->string('status')->default('notverified');
+            $table->timestamp('email_verified_at')->nullable();
+            $table->unsignedBigInteger('userType_id');
+
+            $table->foreign('userType_id')-> references('id')->on('lib_user_types');
         });
     }
 
