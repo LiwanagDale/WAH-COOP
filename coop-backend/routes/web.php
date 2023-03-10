@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MemberInsertController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+//insert data
+Route::get('/insert',[MemberInsertController::class, 'insertform'])->name('member form');
+Route::post('/create',[MemberInsertController::class, 'insert'])->name('member form create');
 
 Route::get('/', function () {
     return view('welcome');
